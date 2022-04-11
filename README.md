@@ -13,7 +13,7 @@ Within a click of a button, the lyrics to that song will start appearing on our 
 
 ## How we built it
 ### Software
-The core software was built using Python, utilizing Spotify's powerful API to get information on the song currently played by the user. Using this data, we would retrieve the lyrics using [Textyl.co](https://api.textyl.co/api/lyrics?q=query)'s API generator. The syncing is accomplished using an internal custom-built stopwatch that lets us predict the user's current timestamp. The rest is fulfilled by our hardware.
+The core software was built using Python, utilizing [Spotify's powerful API](https://developer.spotify.com/documentation/) to get information on the song currently played by the user. Using this data, we would retrieve the lyrics using [Textyl.co](https://api.textyl.co/api/lyrics?q=query)'s API generator. The syncing is accomplished using an internal custom-built stopwatch that lets us predict the user's current timestamp. The rest is fulfilled by our hardware.
 
 ### Hardware
 We used an Arduino Genuino 101 to power and communicate with our 16x2 Grove LCD-RGB Backlight display. Using Python's `Serial` package, we managed to transmit the required information through our computer ports, binding together the power of two programming languages.
@@ -41,3 +41,6 @@ We got a lot more understanding of the concept of APIs and how to efficiently re
 
 ## What's next for Caraoke - Lyrics on the Go!
 Currently, Caraoke cannot function independently without a wired connection to a computer that holds our code. In the future, we hope to implement an infrastructure to support Bluetooth connection such that the Arduino platform can function as a standalone. Furthermore, we plan to create an interface where users can personalize the digital display, such as accessibility features, to make it an even more powerful Karaoke platform. 
+
+## Project Documentation
+### [Devpost Link](https://devpost.com/software/caraoke-lyrics-on-the-go?ref_content=user-portfolio&ref_feature=in_progress)
