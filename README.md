@@ -44,3 +44,6 @@ Currently, Caraoke cannot function independently without a wired connection to a
 
 ## Project Documentation
 ### [Devpost Link](https://devpost.com/software/caraoke-lyrics-on-the-go?ref_content=user-portfolio&ref_feature=in_progress)
+<img src="images/Caraoke01.jpg" width="300">
+<img src="images/Caraoke02.jpg" width="300">
+<img src="images/Caraoke03.jpg" width="300">
