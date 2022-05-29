@@ -47,3 +47,5 @@ Currently, Caraoke cannot function independently without a wired connection to a
 <img src="images/Caraoke01.jpg" width="300">
 <img src="images/Caraoke02.jpg" width="300">
 <img src="images/Caraoke03.jpg" width="300">
+
+> Written [04/10/2022]
